@@ -2,8 +2,8 @@
 .contenedor {
     width: 100%;
     height: 665px;
-    border: green solid;
-    background-color: black;
+    border: black solid;
+    background-color: green;
     justify-content: center;
     align-items: center;
    
@@ -13,7 +13,8 @@
 .hijo {
     width: 75%;
     height:auto;
-    border: chartreuse solid;
+    background-color: black;
+    border: green solid;
     justify-content: center;
     align-items: center;
     margin-left: auto;
@@ -21,18 +22,21 @@
     display: flex;
     margin-bottom: auto;
     margin-top: 25px;
+    font-family: Jetbrains Mono;
 }
 .sub1 {
-    color:white;
+    color:green;
+    background-color: black;
     font-family: Jetbrains Mono;
     
 }
 .hijo1 {
-    color: white;
+    color: green;
+    background-color: black;
     justify-content: center;
     width: 95%;
     height: 75vh;
-    border: chartreuse solid;
+    border: rgb(58, 38, 1) solid;
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -41,5 +45,21 @@
     
 }
 .toptop {
-    margin-top: 25px;
+    margin-top: 75px;
+    
+}
+.sinf {
+    margin-top: 15px;
+}
+.foot 
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 5px;
+ background-color: green;
+ border: black solid;
+ font-family: Jetbrains Mono;
+color: black;
+ font-weight:bolder;
 }
